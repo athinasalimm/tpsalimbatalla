@@ -22,8 +22,7 @@ public class Linea {
 	        }
 	    
 	        
-	    if (!GameMode.modesChosen.contains(mode)) { //ESTO LO INTENTE PONER EN GAMEMODE Y SE ROMPIO TODO NO SE QUE HACER
-	    	//LO DEJO ACA?? QUEDA FEO
+	    if (!GameMode.modesChosen.contains(mode)) { 
 	        throw new IllegalArgumentException(InvalidGameMode);
 	    }
 	   gameMode = GameMode.getInstance(GameMode.modesChosen.indexOf(mode));
